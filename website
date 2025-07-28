@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yao Capital</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      text-align: center;
+      padding: 2rem;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #000;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yao Capital</h1>
+    <p>Long-Only Investment Fund</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Yao Capital is a long-only investment fund focused on fundamental analysis and value investing.
+        We seek to generate superior risk-adjusted returns by investing in high-quality businesses at attractive prices.
+      </p>
+    </section>
+
+    <section id="philosophy">
+      <h2>Investment Philosophy</h2>
+      <p>
+        Our approach is rooted in patience, discipline, and deep research. We believe that markets are not always efficient
+        in the short term, and that diligent analysis can uncover mispriced opportunities in public equities.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        For inquiries, please reach out to us at <strong>contact@yaocapital.com</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yao Capital. All rights reserved.</p>
+  </footer>
+</body>
+</html>
